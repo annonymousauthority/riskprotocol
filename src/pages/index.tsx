@@ -38,21 +38,17 @@ export default function Home() {
         tokenContract.methods
           .name()
           .call()
-          .then((name) => {
-            console.log(`Token name: ${name}`);
-          });
+          .then((name) => {});
 
         let userAddress;
         web3.eth.getAccounts().then((accounts) => {
           userAddress = accounts[0];
-          console.log(`User address: ${userAddress}`);
           setAddress(userAddress);
           tokenContract.methods
             .balanceOf(userAddress)
             .call()
             .then((_balance) => {
               setBalance(`${ethers.formatEther(_balance)}`);
-              console.log(`Token balance: ${_balance}`);
             });
         });
         setIsMetaMaskConnected(true);
