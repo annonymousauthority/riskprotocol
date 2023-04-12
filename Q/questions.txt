@@ -1,0 +1,4 @@
+a) you quickly walk through the work you did.
+b) explain the risks and consequences of trading rebase tokens and how these could be mitigated or resolved.
+c) What happens with unfilled orders from 0x order book after executing the rebase?
+d) Would centralized (CeFi) crypto exchanges be able to list for trading rebase tokens? Why yes, or why not (and if not -- what can be done for them to be compatible with centralized trading)?
