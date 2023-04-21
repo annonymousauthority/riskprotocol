@@ -16,7 +16,7 @@ describe("RiskProtocol contract", function () {
     Token = await ethers.getContractFactory("RiskProtocol");
     [owner, addr1, addr2] = await hre.ethers.getSigners();
 
-    RiskProtocol = await Token.deploy(tokenCap, tokenBlockReward);
+    RiskProtocol = await Token.deploy(tokenCap, ŸŸ);
   });
 
   describe("Deployment", function () {
