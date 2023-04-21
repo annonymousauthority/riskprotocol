@@ -154,7 +154,7 @@
           "type": "uint256"
         }
       ],
-      "stateMutability": "view",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -178,7 +178,7 @@
           "type": "bool"
         }
       ],
-      "stateMutability": "nonpayable",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -197,7 +197,7 @@
           "type": "uint256"
         }
       ],
-      "stateMutability": "view",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -210,7 +210,7 @@
           "type": "uint256"
         }
       ],
-      "stateMutability": "view",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -223,7 +223,7 @@
       ],
       "name": "burn",
       "outputs": [],
-      "stateMutability": "nonpayable",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -241,7 +241,7 @@
       ],
       "name": "burnFrom",
       "outputs": [],
-      "stateMutability": "nonpayable",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -254,7 +254,7 @@
           "type": "uint256"
         }
       ],
-      "stateMutability": "view",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -267,7 +267,7 @@
           "type": "uint8"
         }
       ],
-      "stateMutability": "view",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -291,14 +291,14 @@
           "type": "bool"
         }
       ],
-      "stateMutability": "nonpayable",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
       "inputs": [],
       "name": "destroy",
       "outputs": [],
-      "stateMutability": "nonpayable",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -322,7 +322,7 @@
           "type": "bool"
         }
       ],
-      "stateMutability": "nonpayable",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -335,7 +335,7 @@
           "type": "string"
         }
       ],
-      "stateMutability": "view",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -348,14 +348,14 @@
           "type": "address"
         }
       ],
-      "stateMutability": "view",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
       "inputs": [],
       "name": "pause",
       "outputs": [],
-      "stateMutability": "nonpayable",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -368,7 +368,7 @@
           "type": "bool"
         }
       ],
-      "stateMutability": "view",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -392,14 +392,14 @@
           "type": "uint256"
         }
       ],
-      "stateMutability": "nonpayable",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
       "inputs": [],
       "name": "renounceOwnership",
       "outputs": [],
-      "stateMutability": "nonpayable",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -412,7 +412,7 @@
       ],
       "name": "setBlockReward",
       "outputs": [],
-      "stateMutability": "nonpayable",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -425,7 +425,7 @@
           "type": "string"
         }
       ],
-      "stateMutability": "view",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -438,7 +438,7 @@
           "type": "uint256"
         }
       ],
-      "stateMutability": "view",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -462,7 +462,7 @@
           "type": "bool"
         }
       ],
-      "stateMutability": "nonpayable",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -491,7 +491,7 @@
           "type": "bool"
         }
       ],
-      "stateMutability": "nonpayable",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
@@ -504,14 +504,14 @@
       ],
       "name": "transferOwnership",
       "outputs": [],
-      "stateMutability": "nonpayable",
+      "stateMutability": "undefined",
       "type": "function"
     },
     {
       "inputs": [],
       "name": "unpause",
       "outputs": [],
-      "stateMutability": "nonpayable",
+      "stateMutability": "undefined",
       "type": "function"
     }
   ],
