@@ -2,7 +2,6 @@ import { Web3Wrapper } from "@0x/web3-wrapper";
 import { HttpClient } from "@0x/connect";
 import { Order, SignedOrder } from "@0x/types";
 import { BigNumber } from "@0x/utils";
-import { getOrderHash } from "@0x/order-utils";
 import Web3 from "web3";
 
 export async function sell(provider, sellingPrice, sellingVolume) {
