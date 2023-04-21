@@ -1,5 +1,5 @@
-import { Web3Wrapper } from "@0x/web3-wrapper";
 import { HttpClient } from "@0x/connect";
+import { Web3Wrapper } from "@0x/web3-wrapper";
 import { Order, SignedOrder } from "@0x/types";
 import { BigNumber } from "@0x/utils";
 import Web3 from "web3";
@@ -10,7 +10,7 @@ export async function sell(provider, sellingPrice, sellingVolume) {
     const httpClient = new HttpClient("https://api.0x.org");
     const makerAddress = "0x58EA67b7FaB72D91ffF367B73452318877Cf57e5";
 
-    const order = new Order({
+    const order = Order({
       chainId: 11155111, // Ethereum Mainnet
       exchangeAddress: "0x4f833a24e1f95d70f028921e27040ca56e09ab0b",
       makerAddress: makerAddress,
