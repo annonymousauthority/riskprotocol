@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import abi from "@/pages/utils/riskprotocol.json";
+import abi from "@/utils/riskprotocol.json";
 import { ethers } from "ethers";
-import { sell } from "./utils/tradeActions";
+import { sell } from "@/utils/tradeActions";
 import { SupportedProvider } from "@0x/web3-wrapper";
 import Web3 from "web3";
 import { BigNumber } from "@0x/utils";
